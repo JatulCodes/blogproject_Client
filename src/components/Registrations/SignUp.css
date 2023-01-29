@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.formDiv{
+    /* border: 1px solid black; */
+    height: 80vh;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto   ; 
+    grid-template-columns:  auto auto ;
+    /* display: flex;
+    margin-right: 10rem;
+    justify-content: end;
+    align-items: center; */
+    
+}
+form{
+     
+    align-self: center;
+    justify-self: center;
+    margin-right: 5rem;
+    /* border: 1px solid black; */
+  
+}
+.form-group{
+    display: flex;
+    margin-top: 0.4rem;
+    flex-direction: column;
+    width: 20rem;
+    /* border: 1px solid black; */
+}
+.form-group label{
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(99, 88, 88);
+}
+.registrationnImg{
+    height: 200px;
+    width: 200px;
+
+}
+.registrationnImg{
+    justify-self: center;
+    align-self: center;
+    height: 25rem;
+    width: 25rem;
+    /* border-radius: 10px; */
+}

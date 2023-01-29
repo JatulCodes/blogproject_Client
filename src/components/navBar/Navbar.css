@@ -1,0 +1,4 @@
+.navlinks .navbar-nav{
+    display: flex;
+    justify-self: end;
+}

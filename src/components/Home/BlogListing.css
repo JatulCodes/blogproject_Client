@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Inter:wght@900&family=PT+Sans&family=Raleway:wght@900&display=swap');
+
+
+.BlodHeading{
+    text-align: center;
+    margin-bottom: 1rem;
+}
+.cardSection{
+    
+    /* display: grid; */
+    /* grid-template-rows: auto auto  ;  */
+    /* grid-template-columns:  auto auto auto ; */
+   
+    /* display: inline-grid; */
+    /* column-gap: 50px; */
+    /* row-gap: 20px; */
+    /* height: 80vh; */
+}
+.cardSection .hello{
+
+    /* border: 1px solid black; */
+    display: grid;
+    grid-template-rows: auto; 
+    grid-template-columns:  auto auto auto ;
+    grid-row-gap: 20px;
+    grid-column-gap: 20px;
+    /* width: 20rem;  */
+}
+.cardSection .hello .card
+{
+    display: flex;
+    justify-self: center;
+    height: 22rem;
+    width: 20rem;
+    /* margin: 1rem; */
+}
+.header{
+    height: 17rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font-family: 'Architects Daughter', cursive;
+    font-family: 'Inter', sans-serif;
+    font-family: 'PT Sans', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    color: aliceblue;
+    background-image: url(https://source.unsplash.com/random/1920x1080/?wallpaper,reading) ; 
+}
+
+.text{
+    margin: 5rem;
+    /* border: 1px solid black; */
+    /* text-align: center; */
+}
